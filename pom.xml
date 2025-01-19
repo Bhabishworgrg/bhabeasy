@@ -23,8 +23,12 @@
 
 	<groupId>io.github.bhabishworgrg</groupId>
 	<artifactId>bhabeasy</artifactId>
-	<version>1.0.0</version>
+	<version>1.0</version>
 	<packaging>maven-archetype</packaging>
+	
+	<name>Bhabeasy</name>
+	<description>A maven archetype curated for beginners.</description>
+	<url>https://github.com/Bhabishworgrg/bhabeasy</url>
 
 	<build>
 		<extensions>
@@ -35,4 +39,25 @@
 			</extension>
 		</extensions>
 	</build>
+	
+	<licenses>
+		<license>
+			<name>The Apache License, Version 2.0</name>
+			<url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Bhabishwor Gurung</name>
+			<email>bhabishworgrg@gmail.com</email>
+			<url>https://bhabishworgrg.github.io</url>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:git://github.com/Bhabishworgrg/bhabeasy.git</connection>
+		<developerConnection>scm:git:ssh://github.com:Bhabishworgrg/bhabeasy.git</developerConnection>
+		<url>https://github.com/Bhabishworgrg/bhabeasy/tree/main</url>
+	</scm>
 </project>
