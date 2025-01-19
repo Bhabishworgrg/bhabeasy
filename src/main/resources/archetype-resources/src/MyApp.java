@@ -16,7 +16,14 @@
 
 package ${package};
 
+/**
+ * This is the main application class.
+ */
 public class MyApp {
+	/**
+	 * This is the entry point of your program.
+	 * @param args Command-line arguments
+	 */
 	public static void main(String[] args) {
 		System.out.println("Hello World");
 	}
